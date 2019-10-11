@@ -9,16 +9,16 @@
 
     <ImageView
         android:id="@+id/ivSplash"
-        android:layout_width="350dp"
-        android:layout_height="358dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginTop="0dp"
-        android:src="@drawable/icget"
+        android:layout_width="320dp"
+        android:layout_height="325dp"
+        android:layout_marginTop="45dp"
         android:scaleType="centerCrop"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:src="@drawable/sw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvSplash"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="50dp"
         android:text="Welcome, dude!"
         android:textColor="#FFF"
         android:textSize="24sp"
@@ -45,7 +45,7 @@
         android:text="It's simple android \n app with animation"
         android:textAlignment="center"
         android:lineSpacingExtra="8dp"
-        android:textColor="#A3A2AD"
+        android:textColor="#D6D8DD"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
